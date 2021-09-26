@@ -1,0 +1,26 @@
+{
+  "name": "react-lazily-component",
+  "version": "0.1.0-alpha.0",
+  "description": "为React设计的组件懒加载方法，支持jsx和tsx。",
+  "main": "asyncComponent.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hai2007/react-lazily-component.git"
+  },
+  "keywords": [
+    "react",
+    "lazy",
+    "lazily",
+    "component",
+    "jsx",
+    "tsx",
+    "ts",
+    "js"
+  ],
+  "author": "你好2007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hai2007/react-lazily-component/issues"
+  },
+  "homepage": "https://github.com/hai2007/react-lazily-component#readme"
+}
