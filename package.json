@@ -1,6 +1,6 @@
 {
   "name": "react-lazily-component",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "为React设计的组件懒加载方法，支持jsx和tsx。",
   "main": "./dist/react-lazily-component.min.js",
   "repository": {
@@ -35,6 +35,7 @@
     "@babel/preset-react": "^7.14.5",
     "@rollup/plugin-babel": "^5.2.1",
     "@hai2007/nodejs": "^1.0.0",
+    "react": "^17.0.2",
     "rollup": "^1.17.0",
     "uglify-js": "^3.10.2"
   }

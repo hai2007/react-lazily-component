@@ -34,22 +34,22 @@ export default (lazyFunction) => {
             })
         }
         render() {
-            let { YourComponent } = this.state;
-            return (
-                <div>
+            let { YourComponent } = this.state
 
-                    {/*
+            if (YourComponent) {
+                /*
 
-                    判断组件是否存在，如果存在，渲染
+                判断组件是否存在，如果存在，渲染
 
-                    此外，为什么会有下面这条语句：
-                    {...this.props}
+                此外，为什么会有下面这条语句：
+                {...this.props}
 
-                    如果用懒加载组件的地方写了属性，这里如果没有这句，会获取不到
-                    */}
-                    {YourComponent ? <YourComponent {...this.props}></YourComponent> : null}
-                </div>
-            )
+                如果用懒加载组件的地方写了属性，这里如果没有这句，会获取不到
+                */
+                return <YourComponent {...this.props}></YourComponent>
+            } else {
+                return null
+            }
         }
     }
 }

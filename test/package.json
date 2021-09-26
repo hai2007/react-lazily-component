@@ -1,0 +1,28 @@
+{
+    "name": "test",
+    "version": "0.1.0",
+    "description": "测试项目",
+    "scripts": {
+        "dev": "webpack-dev-server --config webpack.config.js"
+    },
+    "dependencies": {
+        "@hai2007/style": "^0.3.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "@babel/preset-react": "^7.14.5",
+        "@hai2007/algorithm": "^0.6.2",
+        "@hai2007/nodejs": "^0.1.0",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^2.1.1",
+        "file-loader": "^4.2.0",
+        "style-loader": "^2.0.0",
+        "url-loader": "^2.2.0",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.11.0"
+    }
+}

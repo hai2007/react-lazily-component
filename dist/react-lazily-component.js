@@ -4,12 +4,12 @@
  *
  * author 你好2007 < https://hai2007.gitee.io/sweethome >
  *
- * version 0.1.1
+ * version 0.2.0
  *
  * Copyright (c) 2021-present hai2007 走一步，再走一步。
  * Released under the MIT license
  *
- * Date:Sun Sep 26 2021 13:09:22 GMT+0800 (中国标准时间)
+ * Date:Sun Sep 26 2021 16:53:09 GMT+0800 (中国标准时间)
  */
 import React from 'react';
 
@@ -163,7 +163,18 @@ var index = (function (lazyFunction) {
       key: "render",
       value: function render() {
         var YourComponent = this.state.YourComponent;
-        return /*#__PURE__*/React.createElement("div", null, YourComponent ? /*#__PURE__*/React.createElement(YourComponent, this.props) : null);
+
+        if (YourComponent) {
+          /*
+           判断组件是否存在，如果存在，渲染
+           此外，为什么会有下面这条语句：
+          {...this.props}
+           如果用懒加载组件的地方写了属性，这里如果没有这句，会获取不到
+          */
+          return /*#__PURE__*/React.createElement(YourComponent, this.props);
+        } else {
+          return null;
+        }
       }
     }]);
 
