@@ -23,7 +23,8 @@ npm install --save react-lazily-component
 安装好了以后，然后引入后就可以使用了：
 
 ```js
-let Demo = asyncComponent(() => import('./demo.jsx'))
+import ReactLazilyComponent from 'react-lazily-component'
+let Demo = ReactLazilyComponent(() => import('./demo.jsx'))
 ```
 
 这个Demo就是一个组件，和普通方式引入的组件一样使用即可，不过效果却是懒加载。
