@@ -4,7 +4,6 @@
 <p>
   <a href="https://hai2007.gitee.io/npm-downloads?interval=7&packages=react-lazily-component"><img src="https://img.shields.io/npm/dm/react-lazily-component.svg" alt="downloads"></a>
   <a href="https://packagephobia.now.sh/result?p=react-lazily-component"><img src="https://packagephobia.now.sh/badge?p=react-lazily-component" alt="install size"></a>
-  <a href="https://www.jsdelivr.com/package/npm/react-lazily-component"><img src="https://data.jsdelivr.com/v1/package/npm/react-lazily-component/badge" alt="CDN"></a>
   <a href="https://www.npmjs.com/package/react-lazily-component"><img src="https://img.shields.io/npm/v/react-lazily-component.svg" alt="Version"></a>
   <a href="https://github.com/hai2007/react-lazily-component/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/react-lazily-component.svg" alt="License"></a>
   <a href="https://github.com/hai2007/react-lazily-component" target='_blank'><img alt="GitHub repo stars" src="https://img.shields.io/github/stars/hai2007/react-lazily-component?style=social"></a>
