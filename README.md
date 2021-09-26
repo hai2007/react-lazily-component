@@ -22,7 +22,7 @@ npm install --save react-lazily-component
 
 安装好了以后，然后引入后就可以使用了：
 
-```
+```js
 let Demo = asyncComponent(() => import('./demo.jsx'))
 ```
 

@@ -26,8 +26,6 @@ export default (lazyFunction) => {
              */
             lazyFunction().then(module => {
 
-                console.error(this.props);
-
                 // 获取以后，设置
                 this.setState({
                     YourComponent: module.default

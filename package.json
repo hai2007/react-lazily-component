@@ -1,11 +1,17 @@
 {
   "name": "react-lazily-component",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0",
   "description": "为React设计的组件懒加载方法，支持jsx和tsx。",
-  "main": "asyncComponent.jsx",
+  "main": "./dist/react-lazily-component.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hai2007/react-lazily-component.git"
+  },
+  "scripts": {
+    "start": "npm install && npm run build",
+    "build": "npm run rollup && npm run uglifyjs && hai2007_nodejs --config ./hai2007_nodejs.config.js",
+    "rollup": "rollup --config rollup.config.js",
+    "uglifyjs": "uglifyjs ./dist/react-lazily-component.js -m -o ./dist/react-lazily-component.min.js"
   },
   "keywords": [
     "react",
@@ -22,5 +28,16 @@
   "bugs": {
     "url": "https://github.com/hai2007/react-lazily-component/issues"
   },
-  "homepage": "https://github.com/hai2007/react-lazily-component#readme"
+  "homepage": "https://github.com/hai2007/react-lazily-component#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.14.5",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@hai2007/nodejs": "^1.0.0",
+    "rollup": "^1.17.0",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "uglify-js": "^3.10.2"
+  }
 }
