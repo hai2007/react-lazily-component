@@ -10,7 +10,7 @@ module.exports = {
     pkg: '.',
 
     // 定义任务
-    task(hai2007_nodejs, pkg, rootPath) {
+    task(nodejs, pkg, rootPath) {
 
         [
             'react-lazily-component.js',
@@ -28,7 +28,7 @@ module.exports = {
  *
  * version ${pkg.version}
  *
- * Copyright (c) 2021-present hai2007 走一步，再走一步。
+ * Copyright (c) 2021-2022 hai2007 走一步，再走一步。
  * Released under the ${pkg.license} license
  *
  * Date:${new Date()}

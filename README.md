@@ -32,4 +32,4 @@ let Demo = ReactLazilyComponent(() => import('./demo.jsx'))
 ---------------------------------------
 [MIT](https://github.com/hai2007/react-lazily-component/blob/master/LICENSE)
 
-Copyright (c) 2021 [hai2007](https://hai2007.gitee.io/sweethome/) 走一步，再走一步。
+Copyright (c) 2021-2022 [hai2007](https://hai2007.gitee.io/sweethome/) 走一步，再走一步。
